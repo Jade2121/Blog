@@ -31,3 +31,4 @@ git pull
 ### Reference:
 https://www.jianshu.com/p/5f3effb3eaad
 https://www.jianshu.com/p/eb9af1279499
+http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html
