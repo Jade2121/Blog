@@ -27,6 +27,16 @@ git pull
 ```
 不是本地文件夹，而是本地文件夹下的文件夹
 
+2. jekyll
+加载错误：无法加载此类文件
+```
+使用 Ruby 3.0.1 在已擦除的 Mac 上重新安装 Jelly 后遇到了同样的问题。
+解决使用：
+
+bundle add webrick
+```
+https://talk.jekyllrb.com/t/load-error-cannot-load-such-file-webrick/5417
+
 
 
 
