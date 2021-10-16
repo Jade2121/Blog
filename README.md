@@ -9,6 +9,8 @@ git commit -m "版本日志"
 git push -u origin master
 ```
 
+## [部分桌游玩法速查](https://github.com/Jade2121/Blog/blob/master/%E7%8E%A9%E6%B3%95%E9%80%9F%E6%9F%A5%E6%89%8B%E5%86%8C.md)
+
 
 ## Debug笔记
 1.无法pull
