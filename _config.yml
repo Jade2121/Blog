@@ -26,6 +26,7 @@ baseurl: "/Blog" # the subpath of your site, e.g. /blog
 url: "https://jade2121.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jade2121
+zhihu_username: jade
 
 # Build settings
 theme: minima
