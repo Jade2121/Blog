@@ -28,6 +28,10 @@ twitter_username: jekyllrb
 github_username:  jade2121
 zhihu_username: jade
 
+footer-links:
+  weibo: yourname #请输入你的微博个性域名 https://www.weibo.com/<yourname>
+  zhihu: yourname #输入你知乎主页链接上的名字 https://https://www.zhihu.com/people/<yourname>
+
 # Build settings
 theme: minima
 plugins:
