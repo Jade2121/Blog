@@ -92,15 +92,60 @@ Then type this command in your shell, remember in your working directory.
 
 [Generate pdf from jupyter notebook without code](https://datascience.stackexchange.com/questions/77352/generate-pdf-from-jupyter-notebook-without-code)
 
-### How to delete an element in numpy array
+### 4. How to delete an element in numpy array
 
 ###### 2021-10-17
 
+I want to delete point from dataSet, what should I do?
+
+At first, you need to get the index of the element you want to delete, such as point, using the following code```np.where(condition[, x, y])```. The argument is a condition like x>5 or x == 10.
+
+Then, you should find the index of the element, point. Use this code: ```array[index][index] ```, we can process it to get the index.
+
+At last, using ```np.delete(x,y,axis=)``` to delete x from y.
+
+E.G.
+
+x =np.array([[0,0],[1,1],[2,2]]) we want to delete [0,0]
+
+```python
+x = np.array([[0,0],[1,1],[2,2]])
+print(x)
+tup = np.where(x==[0,0])#Return a tuple
+print(tup)
+x1 = np.delete(x,tup[0][0],axis=0)
+print(x1)
+```
+The output:
+```python
+[[0 0]
+ [1 1]
+ [2 2]]
+(array([0, 0], dtype=int64), array([0, 1], dtype=int64))
+[[1 1]
+ [2 2]]
+```
+
+
+#### Reference
+
+[numpy.where](https://numpy.org/doc/stable/reference/generated/numpy.where.html#numpy-where)
+
+[numpy.delete](https://numpy.org/doc/stable/reference/generated/numpy.delete.html#)
+
+[python - 一次删除numpy数组中某个值的元素](https://www.coder.work/article/3220238)
 
 
 
+### 5. How to change data type in Numpy
 
+###### 2021-10-18
 
+Use ```.dtype``` to see data type. Then use ```.astype(np.type)``` to change data type.
+
+#### Reference
+
+[Data type objects(`dtype`)](https://numpy.org/doc/stable/reference/generated/numpy.dtype.html#numpy.dtype)
 
 
 
