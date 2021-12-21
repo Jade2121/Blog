@@ -92,6 +92,8 @@ Then type this command in your shell, remember in your working directory.
 
 [Generate pdf from jupyter notebook without code](https://datascience.stackexchange.com/questions/77352/generate-pdf-from-jupyter-notebook-without-code)
 
+
+
 ### 4. How to delete an element in numpy array
 
 ###### 2021-10-17
@@ -148,4 +150,105 @@ Use ```.dtype``` to see data type. Then use ```.astype(np.type)``` to change dat
 [Data type objects(`dtype`)](https://numpy.org/doc/stable/reference/generated/numpy.dtype.html#numpy.dtype)
 
 
+
+### 6. Slice the dataframe in pandas
+
+###### 2021-10-24
+
+#### 1. get row
+
+df.iloc[index] #1 row
+
+df[index1:index2] #Continuous multiple rows
+
+df.iloc[[index1,index3]] #Uncontinuous multiple rows
+
+#### 2. get column
+
+df['column name'] # a series
+
+df.loc[:,'column name'] #Get a series
+
+df.iloc[:, index] # do not know the column name
+
+
+
+df[["colname1","colname2"]] # Multiple column
+
+df.loc[:,['cloname1','colname2']]
+
+df.iloc[:,[index1,index2]] # do not know column name
+
+
+
+df.loc[:,'colname1':'colname2'] #Continuous multiple column
+
+#### 3. get row and column(get value)
+
+df. iloc[[index1, index2],[index3]] #dataframe
+
+df. iloc[[index1, index2],index3] #series
+
+df.iloc[[index1,index2],index1:index2] #Continuous
+
+df.iloc[[index1,index2],[index1:index2]]
+
+
+
+df.loc[index,["colname1","colname2"]]
+
+df.loc[[index1,index2],"colname1":"colname2"]
+
+
+
+### 7. How to Create a Correlation Matrix using Pandas
+
+###### 2021-10-24
+
+```df.corr()```
+
+then plot:
+
+```python
+import seaborn as sn
+import matplotlib.pyplot as plt
+```
+
+```python
+sn.heatmap(corrMatrix, annot=True)
+plt.show()
+```
+
+#### Reference
+[How to Create a Correlation Matrix using Pandas](https://datatofish.com/correlation-matrix-pandas/)
+
+
+
+### 8. Scatter plot
+
+###### 2021-10-24
+
+```python
+plt.scatter(x,y)
+plt.show()
+```
+
+
+
+### 9. Polynomial fit in numpy and predict
+
+```python
+weight = numpy.polyfit(x, y, deg, rcond=None, full=False, w=None, cov=False)
+model =  numpy.poly1d(weight, r=False, variable=None)
+predict = model.predict(X_test)
+```
+
+#### Reference
+[numpy.polyfit](https://numpy.org/doc/stable/reference/generated/numpy.polyfit.html#numpy-polyfit)
+
+[numpy.poly1d](https://numpy.org/doc/stable/reference/generated/numpy.poly1d.html#numpy-poly1d)
+
+[How to do exponential and logarithmic curve fitting in Python? I found only polynomial fitting](https://stackoverflow.com/questions/3433486/how-to-do-exponential-and-logarithmic-curve-fitting-in-python-i-found-only-poly)
+
+[How to do exponential and logarithmic curve fitting in Python](https://www.kite.com/python/answers/how-to-do-exponential-and-logarithmic-curve-fitting-in-python)
 
