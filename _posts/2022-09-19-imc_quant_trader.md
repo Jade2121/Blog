@@ -5,17 +5,17 @@
 下面是和面经不一样的题：
 https://github.com/Jade2121/picture/blob/master/WechatIMG6304.jpeg?raw=true
 
-![avater]([https://github.com/Jade2121/picture/blob/master/WechatIMG6304.jpeg](https://github.com/Jade2121/picture/blob/master/WechatIMG6304.jpeg?raw=true))
+![avater](https://github.com/Jade2121/picture/blob/master/WechatIMG6304.jpeg?raw=true)
 
-![avater](https://github.com/Jade2121/picture/blob/master/WechatIMG6306.jpeg)
+![avater](https://github.com/Jade2121/picture/blob/master/WechatIMG6306.jpeg?raw=true)
 
-![avater](https://github.com/Jade2121/picture/blob/master/WechatIMG6307.jpeg)
+![avater](https://github.com/Jade2121/picture/blob/master/WechatIMG6307.jpeg?raw=true)
 
-![avater](https://github.com/Jade2121/picture/blob/master/WechatIMG6314.jpeg)
+![avater](https://github.com/Jade2121/picture/blob/master/WechatIMG6314.jpeg?raw=true)
 
-![avater](https://github.com/Jade2121/picture/blob/master/WechatIMG6317.jpeg)
+![avater](https://github.com/Jade2121/picture/blob/master/WechatIMG6317.jpeg?raw=true)
 
-![avater](https://github.com/Jade2121/picture/blob/master/WechatIMG6320.jpeg)
+![avater](https://github.com/Jade2121/picture/blob/master/WechatIMG6320.jpeg?raw=true)
 
-![avater](https://github.com/Jade2121/picture/blob/master/WechatIMG6322.jpeg)
+![avater](https://github.com/Jade2121/picture/blob/master/WechatIMG6322.jpeg?raw=true)
 
