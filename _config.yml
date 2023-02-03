@@ -27,6 +27,7 @@ url: "https://jade2121.github.io" # the base hostname & protocol for your site, 
 twitter_username: Jade_w1w
 github_username:  jade2121
 zhihu_username: jade
+google_analytics: <G-VHJ3J6PLFD>
 
 footer-links:
   weibo: yourname #请输入你的微博个性域名 https://www.weibo.com/<yourname>
